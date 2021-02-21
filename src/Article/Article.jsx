@@ -4,31 +4,15 @@ const Article = () => {
     return (
         
             <div>
-        
+            <h1>
+                The Statue of Liberty's torch heads to new museum
+      </h1>
+            <address>
+                <i>by Kate Farley (<a href="kate.farley@nytimes.com">kate.farley@nytimes.com</a>) </i>
+            </address>
+            <time dateTime="2018-11-22">November 22, 2018</time><br /><br />
             
-            <table>
-                <caption><b><font size="5">Author's information</font></b></caption>
-                   
-
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Date</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                            <td>Kate Farley</td>
-                            <td><a href="kate.farley@nytimes.com">kate.farley@nytimes.com</a></td>
-                            <td>November 22, 2018</td>
-                    </tr>
-                   
-                </tbody>
-           
-                </table><br /><br />
-            
-                <b><font size="6">The Statue of Liberty's torch heads to new museum </font> </b><br /><br />
+               
      
     
       The Statue of Liberty's original torch is getting a new home.<br /><br />
@@ -39,7 +23,7 @@ const Article = () => {
 
       "Although it is not one of the most difficult things we have ever moved," says Douglas Phelps, who oversaw the relocation of the torch, "it is certainly the most important."<br /><br />
 
-                <b><font size="6">The history of the Statue of Liberty</font> </b><br /><br />
+                <h1>The history of the Statue of Liberty</h1>
 
       Not only is the Statue of Liberty the symbol of New York City, she is also a UNESCO World Heritage site under the designation of <i>Outstanding Universal Value</i>.<br /><br />
 
@@ -59,7 +43,7 @@ const Article = () => {
 
       The inspiration gallery, which is where the torch will live, will have floor-to-ceiling glass windows looking out at Lower Manhattan, including the World Trade Center.<br /><br />
 
-                <b><font size="6">Some facts about the Statue of Liberty</font> </b><br /><br />
+                <h1>Some facts about the Statue of Liberty</h1>
                <ul>
                     <li> Total overall height from the base of the pedestal foundation to the tip of the torch is <b>305 feet, 6 inches</b></li>
 

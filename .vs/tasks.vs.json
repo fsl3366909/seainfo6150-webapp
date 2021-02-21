@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "任务-seainfo6150-webapp",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}

@@ -8,8 +8,10 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      let responseJson;
-      // put data fetching code here!
+       // put data fetching code here!
+        const response = await fetch("http://demo1390455.mockable.io/articles");
+        const responseJson = await response.json();
+      
       setFetchedData(responseJson);
     };
 
@@ -21,16 +23,8 @@ function App() {
   return isEmpty(fetchedData) ? null : (
     <div className="App">
       <Switch>
-        <Route
-          exact
-          path={`/articlelist/:slug`}
-          render={({ match }) => {
-            // getting the parameters from the url and passing
-            // down to the component as props
-            console.log("this slug", match.params.slug);
-            return <div>Component</div>;
-          }}
-        />
+       
+         
         <Route>
           <DynamicArticle article={Object.values(fetchedData)[1]} />
         </Route>

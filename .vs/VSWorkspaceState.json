@@ -3,8 +3,10 @@
     "",
     "\\src",
     "\\src\\Article",
+    "\\src\\ArticleList",
+    "\\src\\ArticleListItem",
     "\\src\\DynamicArticle"
   ],
-  "SelectedNode": "\\src\\App.js",
+  "SelectedNode": "\\src\\DynamicArticle\\DynamicArticle.jsx",
   "PreviewInSolutionExplorer": false
 }

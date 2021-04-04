@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\ArticleImage",
+    "\\src\\ArticleList",
+    "\\src\\ArticleListItem",
+    "\\src\\ArticleTextToggleButton",
+    "\\src\\DynamicArticle",
+    "\\src\\HTMLText"
+  ],
+  "SelectedNode": "\\src\\ArticleListItem\\ArticleListItem.module.css",
+  "PreviewInSolutionExplorer": false
+}

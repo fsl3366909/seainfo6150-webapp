@@ -1,0 +1,88 @@
+/* 产品列表 */
+#product {
+    width: 1200px;
+    display: block;
+    margin: auto;
+
+    .btn-group {
+        display: flex;
+
+        .tit {
+            width: 100px;
+            color: #999;
+            text-align: right;
+        }
+
+        .btn {
+            flex-grow: 1;
+            padding-left: 30px;
+            color: #333;
+        }
+    }
+
+    ul {
+        display: grid;
+        margin: auto;
+        grid-template-columns: 33% 33% 33%;
+        // grid-template-rows: 500px 500px 500px;
+    }
+
+    li {
+        width: 100%;
+        text-align: center;
+
+        .pro {
+            height: 500px;
+            overflow: hidden;
+            margin: 20px;
+            border: 1px solid #ccc;
+        }
+
+        .png {
+            width: 90%;
+            display: block;
+            text-align: center;
+            height: 300px;
+            display: block;
+            margin: auto;
+            overflow: hidden;
+            // background: #f4f4f4;
+            position: relative;
+
+            img {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                display: block;
+                width: 100%;
+                margin: auto;
+            }
+        }
+
+        .txt {
+            font-size: 24px;
+            line-height: 40px;
+            text-align: left;
+            padding-left: 30px;
+        }
+    }
+
+    .defaultbtn {
+        display: block;
+        margin: 30px auto;
+        width: 160px;
+        height: 30px;
+        font-size: 18px;
+        border: 1px solid #333;
+        color: #333;
+        opacity: 0.8;
+        line-height: 30px;
+        background: #f4f4f4;
+    }
+
+    .defaultbtn:hover {
+        background: #000;
+        color: #fff;
+    }
+}

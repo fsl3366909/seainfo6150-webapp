@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <div
+    id="home"
+  >
+    <h1>
+      The home page
+    </h1>
+    <h2>
+      This is a car sales website
+    </h2>
+    <div
+      class="pngline "
+    >
+      <div
+        class="fn-clear"
+      >
+        <div
+          class="btns fl"
+        >
+          <div
+            class="png"
+          >
+            <img
+              alt=""
+              src="1.webp"
+            />
+          </div>
+          <p>
+            The new CLS.
+          </p>
+        </div>
+        <div
+          class="btns fl"
+        >
+          <div
+            class="png"
+          >
+            <img
+              alt=""
+              src="2.webp"
+            />
+          </div>
+          <p>
+            The A-Class: An ASMR experience.
+          </p>
+        </div>
+        <div
+          class="btns fl"
+        >
+          <div
+            class="png"
+          >
+            <img
+              alt=""
+              src="3.jpg"
+            />
+          </div>
+          <p>
+            Mercedes-Benz 170 V: The best-seller of 1936.
+          </p>
+        </div>
+        <div
+          class="btns fl"
+        >
+          <div
+            class="png"
+          >
+            <img
+              alt=""
+              src="4.webp"
+            />
+          </div>
+          <p>
+            The EQV: Electric, versatile, intelligent.
+          </p>
+        </div>
+      </div>
+      <a
+        class="defaultbtn"
+        href="/product"
+      >
+        Show More
+      </a>
+    </div>
+    <div
+      class="footerbtn"
+    >
+      <a
+        href="/contact"
+      >
+        Contact us
+      </a>
+       
+      <a
+        href="/thank"
+      >
+        Thank you
+      </a>
+       
+      <a
+        href="/aboutus"
+      >
+        About us
+      </a>
+    </div>
+  </div>
+</div>
+`;

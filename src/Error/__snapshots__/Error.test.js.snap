@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <div>
+    <h1>
+      error
+    </h1>
+    <img
+      alt=""
+      src="404.jpg"
+    />
+  </div>
+</div>
+`;

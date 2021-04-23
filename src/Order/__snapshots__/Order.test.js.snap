@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the home component correctly 1`] = `
+<div>
+  <div>
+    <h1>
+      Order
+    </h1>
+    <div
+      class="formbox"
+    >
+      <div
+        class="pngbox"
+      />
+      <div
+        class="btn-group line"
+      >
+        <span>
+          name
+        </span>
+        <div
+          class="input btn"
+        >
+          <select
+            class="name"
+            id=""
+            name=""
+          />
+        </div>
+      </div>
+      <div
+        class="btn-group line"
+      >
+        <span>
+          number
+        </span>
+        <div
+          class="input btn"
+        >
+          <select
+            class="number"
+            id=""
+            name=""
+          >
+            <option
+              value="1"
+            >
+              1
+            </option>
+            <option
+              value="2"
+            >
+              2
+            </option>
+            <option
+              value="3"
+            >
+              3
+            </option>
+            <option
+              value="4"
+            >
+              4
+            </option>
+            <option
+              value="5"
+            >
+              5
+            </option>
+          </select>
+        </div>
+      </div>
+      <div
+        class="btn-group line"
+      >
+        <span>
+          username
+        </span>
+        <div
+          class="input btn"
+        >
+          <input
+            class="username"
+            placeholder="input username"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="btn-group line"
+      >
+        <span>
+          phone
+        </span>
+        <div
+          class="input btn"
+        >
+          <input
+            class="phone"
+            placeholder="only figures"
+            type="number"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="btn-group line"
+      >
+        <span>
+          areacode
+        </span>
+        <div
+          class="input btn"
+        >
+          <input
+            class="areacode"
+            placeholder="only figures"
+            type="number"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="btn-group line"
+      >
+        <span>
+          color
+        </span>
+        <div
+          class="input btn"
+        >
+          <input
+            name="color"
+            type="radio"
+            value="white"
+          />
+          white  
+          <input
+            name="color"
+            type="radio"
+            value="black"
+          />
+          black  
+          <input
+            name="color"
+            type="radio"
+            value="purple"
+          />
+          purple  
+          <input
+            name="color"
+            type="radio"
+            value="blue"
+          />
+          blue  
+        </div>
+      </div>
+      <div
+        class="btn-group line"
+      >
+        <span>
+          gender
+        </span>
+        <div
+          class="input btn"
+        >
+          <input
+            name="gender"
+            type="radio"
+            value="male"
+          />
+          male  
+          <input
+            name="gender"
+            type="radio"
+            value="female"
+          />
+          female  
+        </div>
+      </div>
+      <a
+        class="defaultbtn"
+      >
+        submit
+      </a>
+    </div>
+  </div>
+</div>
+`;
